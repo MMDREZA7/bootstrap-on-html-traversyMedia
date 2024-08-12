@@ -1,0 +1,19 @@
+body::before {
+  display: block;
+  content: "";
+  height: 40px;
+}
+
+.accordion-iframe {
+  background-color: aqua;
+  width: 100%;
+  margin: 0;
+  border-radius: none;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
